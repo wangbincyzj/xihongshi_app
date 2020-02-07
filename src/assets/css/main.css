@@ -1,0 +1,38 @@
+@import "reset.css";
+@import "vant.css";
+@import "china_news.css";
+
+
+html {
+    font-size: 100px;
+}
+
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.clear::before{
+    content: "";
+    display: table;
+    width: 0;
+    height: 0;
+}
+.clear::after{
+    content: "";
+    display: table;
+    width: 0;
+    height: 0;
+}
+
